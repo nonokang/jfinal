@@ -20,7 +20,7 @@ public class Emp {
     }*/
     
     public static void main(String[] args) {
-        String s1 = "Programming";
+        String s1 = "Programming";//sdsdsds
         String s2 = new String("Programming");
         String s3 = "Program" + "ming";
         System.out.println(s1 == s2);
