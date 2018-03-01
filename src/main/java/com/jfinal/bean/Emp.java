@@ -5,7 +5,7 @@ import com.jfinal.model.People;
 public class Emp {
     /*public static void main(String[] args) {
     	People p = new People();
-    	p.setName("张三");
+    	p.setName("张三1111");
 
         change(p);
 
