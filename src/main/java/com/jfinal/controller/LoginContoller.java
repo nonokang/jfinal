@@ -3,6 +3,8 @@ package com.jfinal.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
 import com.jfinal.core.Controller;
 
 /**
@@ -12,6 +14,8 @@ import com.jfinal.core.Controller;
  * @author  wpk | 2018年2月10日 下午1:16:38 |创建
  */
 public class LoginContoller extends Controller{
+	
+	private static Logger logger = Logger.getLogger(LoginContoller.class);
 
 	public void index(){
 		renderJsp("/WEB-INF/views/login.jsp");

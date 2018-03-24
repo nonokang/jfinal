@@ -3,12 +3,16 @@ package com.jfinal.controller;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
 import com.jfinal.core.Controller;
 import com.jfinal.kit.StrKit;
 import com.jfinal.model.People;
 import com.jfinal.plugin.activerecord.Page;
 
 public class PeopleController extends Controller{
+	
+	private static Logger logger = Logger.getLogger(LoginContoller.class);
 
 	public void index(){
 		renderJsp("/WEB-INF/views/people/peopleIndex.jsp");
